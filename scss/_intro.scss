@@ -1,0 +1,36 @@
+#intro {
+	height: 100%;
+	background: {
+		image: url('../images/introbg-m.jpg');
+		repeat: no-repeat;
+		position: top left;
+	}
+	@include background-size(cover);
+	color: white;
+	.centered-words {
+		@include center-text(-50%, -50%);
+	}
+	.motto {
+		font-size: 2em;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding-bottom: 20px;
+		.blue {
+			color: #27a9e1;
+		}
+		.green {
+			color: #8CC63E;
+		}
+	}
+	a{
+		.add-member {
+			padding-top: 4em;
+			color: #00A652;
+			text-decoration: underline;
+			i {
+				font-size: 3em;
+				line-height: 0;
+			}
+		}
+	}
+}
