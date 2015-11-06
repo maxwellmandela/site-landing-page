@@ -1,5 +1,39 @@
-#events{
+#events {
+	.event-title {
+		padding-top: 1.25em;
+		padding-bottom: 1.1em;
+		text-align: center;
+		color: white;
+		i {
+			font-size: 2em;
+			line-height: 0;
+		}
+	}
+
 	background: #1E59A9;
-	min-height: 100%;
-	margin-top: 2px;
+
+	// min-height: 100%;
+	margin-top: 0.125em;
+	padding-bottom: 20px;
+	.panel {
+		margin: 0.25rem;
+		min-height: 100px;
+		border: none;
+		background: white;
+	}
+	.button {
+		background-color: #00A652;
+		margin-left: 0.25em;
+		margin-bottom: 0;
+	}
+	.event-description {
+		line-height: 1.1em;
+		padding-bottom: 0.5em;
+	}
+	.event-date {
+		i{
+			font-size: 1.2em;
+		}
+		font-weight: bold;
+	}
 }
