@@ -1,0 +1,39 @@
+#twitter {
+	background: #3AB54A;
+
+	// height: 100%;
+	color: white;
+	margin-top: 0.125em;
+	padding-bottom: 30px;
+
+	// padding: 0.25em;
+	.follow {
+		padding-left: 5px;
+		.button {
+			padding-left: 0.95em;
+			padding-right: 0.95em;
+			margin-bottom: 5px;
+		}
+		#btn-twitter {
+			background-color: #58CEF2;
+		}
+		#btn-fb {
+			background-color: #3A5795;
+		}
+		#btn-github {
+			background-color: #333;
+		}
+	}
+	h1 {
+		padding-top: 1.2em;
+		padding-bottom: 0.7em;
+		font-size: 1.3em;
+		color: white;
+		text-align: center;
+	}
+	.tweet {
+		padding: 1em;
+		background: scale-color(#3AB54A, $lightness: -30%);
+		margin: 0.25em;
+	}
+}
