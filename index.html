@@ -9,63 +9,44 @@
 </head>
 <body>
 
-<div class="sticky">
-	<nav class="top-bar"	data-topbar role="navigation">
-		<ul class="title-area">
-			<li class="name">
-			<a href="index.html">
-				<img src="../images/logo_with_name.png" alt="LakeHub logo" />
-			</a>
-			<!-- <h1><a href="www.lakehub.co.ke">LakeHub</a></h1> -->
-			</li>
-			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-		</ul>
+<div class="off-canvas-wrap show-for-small-only" data-offcanvas>
+	<div class="inner-wrap">
+		<nav class="tab-bar">
+			<section class="left-small">
+				<a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+			</section>
 
-		<section class="top-bar-section">
-			<!-- Right Nav Section -->
-			<ul class="right">
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
+			<section class="middle tab-bar-section">
+				<h1 class="title">LakeHub</h1>
+			</section>
+		</nav>
+
+		<aside class="left-off-canvas-menu">
+			<ul class="off-canvas-list">
+				<li><label>LakeHub</label></li>
+				<li><a href="#">Intro</a></li>
+				<li><a href="#">Tweets</a></li>
 				<li><a href="#">Events</a></li>
-				<li><a href="#">Programs</a></li>
-				<li><a href="#">Sign Up</a></li>
+				<li><a href="#">Become a member</a></li>
+				<li><a href="#">Villagecode</a></li>
 			</ul>
+		</aside>
+
+		<section class="main-section">
+<div data-interchange="[./partials/mobile.html, (small)]">
+</div>
+			<!-- content goes here -->
 		</section>
-	</nav>
+
+		<a class="exit-off-canvas"></a>
+
+	</div>
 </div>
 
-<div id="intro">
-	<div class="tagline">
-		Bringing together techies, enthusiasts, learners and proffesionals
-	</div>
-		<div class="motto">
-			<span class="blue">connect. </span>
-			<span class="white">innovate. </span>
-			<span class="green">inspire. </span>
-		</div>
-		<span class="register">
-			Become a member
-		</span>
-
+<div data-interchange="[./partials/header.html, (medium)]">
 </div>
-<div id="events">
+<div data-interchange="[./partials/medium.html, (medium)]">
 </div>
-<div id="twitter">
-</div>
-<footer>
-	<div class="connect">
-		<i class="fi-social-facebook"></i>
-		<i class="fi-social-twitter"></i>
-		<i class="fi-social-github"></i>
-		<i class="fi-social-linkedin"></i>
-		<i class="fi-social-reddit"></i>
-		<i class="fi-social-instagram"></i>
-	</div>
-	<div class="copyright">
-		&#169  2015 <a href="http://www.lakehub.co.ke">LakeHub</a>
-	</div>
-</footer>
 
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
