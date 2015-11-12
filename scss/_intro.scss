@@ -22,7 +22,7 @@
 			color: #8CC63E;
 		}
 	}
-	a{
+	a {
 		.add-member {
 			padding-top: 4em;
 			color: #00A652;
@@ -31,6 +31,26 @@
 				font-size: 3em;
 				line-height: 0;
 			}
+		}
+	}
+}
+
+// Medium screens
+@media only screen and (min-width: 40.063em) {
+	#intro {
+		padding-left: 4em;
+		margin-top: -4px;
+		background: {
+			image: url('../images/intro.jpg');
+		};
+
+		.tagline {
+			font-size: 1.8em;
+			padding-top: 30%;
+			padding-bottom: 1.6em;
+		}
+		.register{
+			text-transform: uppercase;
 		}
 	}
 }
