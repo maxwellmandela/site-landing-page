@@ -13,7 +13,7 @@ $fi-path: "/bower_components/foundation-icon-fonts";
 //   "foundation/components/block-grid",
 //   "foundation/components/breadcrumbs",
 //   "foundation/components/button-groups",
-//   "foundation/components/buttons",
+  "foundation/components/buttons",
 //   "foundation/components/clearing",
   "foundation/components/dropdown",
 //   "foundation/components/dropdown-buttons",
@@ -47,3 +47,6 @@ $fi-path: "/bower_components/foundation-icon-fonts";
 	@import 'events';
 	@import 'twitter';
 	@import 'footer';
+	.row{
+		max-width: 100%;
+	}
