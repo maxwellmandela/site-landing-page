@@ -37,3 +37,26 @@
 		margin: 0.25em;
 	}
 }
+@media only screen and (min-width: 40.063em) {
+	#twitter {
+		margin-top: 5px;
+		background-color: white;
+		padding-bottom: 0;
+		.we-socialize {
+		}
+		.our-tweets {
+			background: #3AB54A;
+			min-height: 450px;
+		}
+		.we-socialize {
+			border-right: 5px solid white;
+			min-height: 450px;
+			background: {
+				image: url('../images/programs.jpg');
+				repeat: no-repeat;
+				position: top left;
+			}
+			@include background-size(cover);
+		}
+	}
+}
