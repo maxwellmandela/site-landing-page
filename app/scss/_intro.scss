@@ -1,14 +1,21 @@
 #intro {
-	min-height: 100%;
+	height: 100%;
 	background: {
 		image: url('../images/introbg-m.jpg');
 		repeat: no-repeat;
 		position: top left;
 	}
 	@include background-size(cover);
+	display: table;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
 	color: white;
 	.centered-words {
-		@include center-text(-50%, -50%);
+		display: table-cell !important;
+		vertical-align: middle;
+		width: 100%;
+		text-align: center;
 	}
 	.motto {
 		font-size: 2em;
@@ -44,6 +51,9 @@
 		background: {
 			image: url('../images/intro.jpg');
 		};
+		.centered-words{
+			display: none !important;
+		}
 
 		.tagline {
 			font-size: 1.8em;
