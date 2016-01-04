@@ -1,62 +1,35 @@
 #twitter {
-	background: #3AB54A;
-
-	// height: 100%;
-	color: white;
+	background: #333333;
 	margin-top: 0.125em;
 	padding-bottom: 30px;
-
-	// padding: 0.25em;
-	.follow {
-		padding-left: 5px;
-		.button {
-			padding-left: 0.95em;
-			padding-right: 0.95em;
-			margin-bottom: 5px;
-		}
-		#btn-twitter {
-			background-color: #58CEF2;
-		}
-		#btn-fb {
-			background-color: #3A5795;
-		}
-		#btn-github {
-			background-color: #333;
-		}
-	}
-	h1 {
-		padding-top: 1.2em;
-		padding-bottom: 0.7em;
-		font-size: 1.3em;
-		color: white;
-		text-align: center;
-	}
-	.tweet {
-		padding: 1em;
-		background: scale-color(#3AB54A, $lightness: -30%);
-		margin: 0.25em;
-	}
 }
 @media only screen and (min-width: 40.063em) {
 	#twitter {
 		margin-top: 5px;
-		background-color: white;
 		padding-bottom: 0;
-		.we-socialize {
-		}
+		border-right: 5px solid white;
+		border-left: 5px solid white;
+		border-bottom: 5px solid white;
 		.our-tweets {
 			background: #3AB54A;
-			min-height: 450px;
 		}
 		.we-socialize {
+			position: relative;
 			border-right: 5px solid white;
-			min-height: 450px;
+			min-height: 620px;
 			background: {
 				image: url('../images/programs.jpg');
 				repeat: no-repeat;
 				position: top left;
 			}
 			@include background-size(cover);
+			p{
+				position: absolute;
+				bottom: 2em;
+				padding-left: 10px;
+				font-size: 3em;
+				color: white;
+			}
 		}
 	}
 }
