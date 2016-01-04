@@ -8575,10 +8575,9 @@ th.hide-for-touch {
   }
 }
 #events {
+  position: relative;
+  margin-top: 2px;
   background: #1E59A9;
-  height: auto;
-  margin-top: 0.125em;
-  padding-bottom: 20px;
 }
 #events .event-title {
   padding-top: 1.25em;
@@ -8610,47 +8609,31 @@ th.hide-for-touch {
 
 @media only screen and (min-width: 40.063em) {
   #events {
-    background-color: white;
-    max-height: 600px;
-    padding-bottom: 0;
-    margin-top: 5px;
     border-left: 5px solid white;
     border-right: 5px solid white;
-    background: #1E59A9;
+    margin-top: 5px;
   }
-  #events .upcoming-events {
-    color: white;
-  }
-  #events .event-left {
-    background: #1E59A9;
-    padding: 0 45px;
-  }
-  #events .event-left .event-title {
-    text-align: left;
-  }
-  #events .event-left .event-list p.title {
-    font-size: 30px;
-    margin-bottom: 0;
-    line-height: 1.4;
-  }
-  #events .event-pic {
-    height: 600px;
-    color: white;
+
+  .event-pic {
     border-left: 5px solid white;
+    min-height: 600px;
+    color: white;
+    position: relative;
     background-image: url("../images/events.jpg");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
   }
-  #events .event-pic .join-us {
-    padding-top: 440px;
+  .event-pic .join-us {
+    position: absolute;
     bottom: 2em;
+    padding: 0 2em;
     padding-bottom: 10px;
   }
-  #events .event-pic .join-us .join-small {
+  .event-pic .join-us .join-small {
     font-size: 1.5em;
   }
-  #events .event-pic .join-us .join-larger {
+  .event-pic .join-us .join-larger {
     font-size: 3em;
   }
 }
