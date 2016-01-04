@@ -8524,6 +8524,10 @@ th.hide-for-touch {
   vertical-align: middle;
   width: 100%;
   text-align: center;
+  padding-top: 2em;
+}
+#intro .centered-words p {
+  padding: 0 5px;
 }
 #intro .motto {
   font-size: 2em;
@@ -8538,7 +8542,7 @@ th.hide-for-touch {
   color: #8CC63E;
 }
 #intro a .add-member {
-  padding-top: 4em;
+  padding: 4em 0;
   color: #00A652;
   text-decoration: underline;
 }
@@ -8554,13 +8558,17 @@ th.hide-for-touch {
     padding-bottom: 4em;
     background-image: url("../images/intro.jpg");
   }
+  #intro .worded {
+    position: absolute;
+    bottom: 4em;
+  }
   #intro .centered-words {
     display: none !important;
   }
   #intro .tagline {
     font-size: 1.8em;
-    padding-top: 30%;
     padding-bottom: 1.6em;
+    padding-right: 2em;
   }
   #intro .register {
     text-transform: uppercase;

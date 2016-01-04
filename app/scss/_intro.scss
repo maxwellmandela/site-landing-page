@@ -16,6 +16,10 @@
 		vertical-align: middle;
 		width: 100%;
 		text-align: center;
+		padding-top: 2em;
+		p{
+			padding: 0 5px;
+		}
 	}
 	.motto {
 		font-size: 2em;
@@ -31,7 +35,7 @@
 	}
 	a {
 		.add-member {
-			padding-top: 4em;
+			padding: 4em 0;
 			color: #00A652;
 			text-decoration: underline;
 			i {
@@ -51,14 +55,19 @@
 		background: {
 			image: url('../images/intro.jpg');
 		};
+		.worded{
+			position: absolute;
+			bottom: 4em;
+		}
 		.centered-words{
 			display: none !important;
 		}
 
 		.tagline {
 			font-size: 1.8em;
-			padding-top: 30%;
+			// padding-top: 30%;
 			padding-bottom: 1.6em;
+			padding-right: 2em;
 		}
 		.register {
 			text-transform: uppercase;
