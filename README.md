@@ -7,7 +7,7 @@ knowledge required.
 
 ## Get started
 
-This project has been generated using [yeoman](http://yeoman.io) with [foundation-5 generator](https://github.com/juliancwirko/generator-zf5)
+This project has been generated using [yeoman](http://yeoman.io) with [foundation-5 generator](https://github.com/juliancwirko/generator-zf5). It uses SASS for stylesheet
 
 
 ## How to contribute
@@ -28,17 +28,6 @@ instructions](http://2buntu.com/articles/1459/keeping-your-forked-repo-synced-wi
 When you're working on your project immediately after having it in your
 local repo, move to the root of the app.
 
-1. Install node compontents `npm install` 
-2. Install bower components `bower install`
+1. Install bower components `bower install`
+2. To start development run `grunt` from the project directory
 
-#### CSS vs SCSS
-You should write your stylesheets in SCSS and use compass to preprocess it to
-app.css ( do not edit app.css manually)
-
-Use compass watch for precompiling 
-```bash
-bundle exec compass watch
-```
-
-Use the node server by running `node server.js` which will start your server in
-port 8000
