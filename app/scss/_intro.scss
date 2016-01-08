@@ -49,6 +49,7 @@
 // Medium screens
 @media only screen and (min-width: 40.063em) {
 	#intro {
+		text-align: center;
 		padding-left: 4em;
 		margin-top: -4px;
 		padding-bottom: 4em;
@@ -71,6 +72,14 @@
 		}
 		.register {
 			text-transform: uppercase;
+			.button{
+					border: 1px solid #27A9E1;
+				&:hover{
+					color:#27A9E1; 
+					background-color: transparent;
+					border: 1px solid #27A9E1;
+				}
+			}
 		}
 	}
 }

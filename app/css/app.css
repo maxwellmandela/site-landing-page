@@ -8553,6 +8553,7 @@ th.hide-for-touch {
 
 @media only screen and (min-width: 40.063em) {
   #intro {
+    text-align: center;
     padding-left: 4em;
     margin-top: -4px;
     padding-bottom: 4em;
@@ -8573,6 +8574,14 @@ th.hide-for-touch {
   #intro .register {
     text-transform: uppercase;
   }
+  #intro .register .button {
+    border: 1px solid #27A9E1;
+  }
+  #intro .register .button:hover {
+    color: #27A9E1;
+    background-color: transparent;
+    border: 1px solid #27A9E1;
+  }
 }
 #events {
   position: relative;
@@ -8585,16 +8594,30 @@ th.hide-for-touch {
   text-align: center;
   color: white;
 }
+#events .event-left {
+  padding-bottom: 10px;
+}
 #events .panel {
   margin: 0.25rem;
   min-height: 100px;
   border: none;
   background: white;
+  transition: background 0.9s;
+}
+#events .panel:hover {
+  background: #00A652;
+  color: white;
 }
 #events .button {
   background-color: #00A652;
   margin-left: 0.25em;
   margin-bottom: 0;
+  box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.35) inset;
+  transition: all 0.6s;
+}
+#events .button:hover {
+  box-shadow: 0px -5px 4px rgba(0, 0, 0, 0.35) inset;
+  background-color: transparent;
 }
 #events .event-description {
   line-height: 1.1em;
@@ -8688,6 +8711,13 @@ footer i {
 
 .top-bar-section ul li > a {
   transition: background-color 0.8s;
+}
+
+.top-bar .title-area {
+  padding-left: 10px;
+}
+.top-bar .title-area .name {
+  padding-top: 5px;
 }
 
 .row {

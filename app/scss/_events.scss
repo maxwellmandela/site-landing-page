@@ -1,6 +1,7 @@
 #events {
 	position: relative;
 	margin-top: 2px;
+	background: #1E59A9;
 	.event-title {
 		padding-top: 1.25em;
 		padding-bottom: 1.1em;
@@ -8,18 +9,32 @@
 		color: white;
 	}
 
-	background: #1E59A9;
 
+	.event-left {
+		padding-bottom: 10px;
+	}
 	.panel {
 		margin: 0.25rem;
 		min-height: 100px;
 		border: none;
 		background: white;
+		transition: background 0.9s;
+		&:hover{
+			background: #00A652;
+			// background: #333;
+			color: white;
+		}
 	}
 	.button {
 		background-color: #00A652;
 		margin-left: 0.25em;
 		margin-bottom: 0;
+		box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.35) inset;
+		transition: all 0.6s;
+		&:hover {
+			box-shadow: 0px -5px 4px rgba(0, 0, 0, 0.35) inset;
+			background-color: transparent;
+		}
 	}
 	.event-description {
 		line-height: 1.1em;
@@ -37,29 +52,29 @@
 		border-left: 5px solid white;
 		border-right: 5px solid white;
 		margin-top: 5px;
+	}
+	.event-pic {
+		border-left: 5px solid white;
+		min-height: 600px;
+		color: white;
+		position: relative;
+		background: {
+			image: url('../images/events.jpg');
+			repeat: no-repeat;
+			position: top left;
 		}
-		.event-pic {
-			border-left: 5px solid white;
-			min-height: 600px;
-			color: white;
-			position: relative;
-			background: {
-				image: url('../images/events.jpg');
-				repeat: no-repeat;
-				position: top left;
+		@include background-size(cover);
+		.join-us {
+			position: absolute;
+			bottom: 2em;
+			padding: 0 2em;
+			.join-small {
+				font-size: 1.5em;
 			}
-			@include background-size(cover);
-			.join-us {
-				position: absolute;
-				bottom: 2em;
-				padding: 0 2em;
-				.join-small {
-					font-size: 1.5em;
-				}
-				.join-larger {
-					font-size: 3em;
-				}
-				padding-bottom: 10px;
+			.join-larger {
+				font-size: 3em;
 			}
+			padding-bottom: 10px;
 		}
+	}
 }
