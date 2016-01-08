@@ -8562,6 +8562,7 @@ th.hide-for-touch {
   #intro .worded {
     position: absolute;
     bottom: 4em;
+    padding-right: 3em;
   }
   #intro .centered-words {
     display: none !important;
@@ -8695,18 +8696,19 @@ th.hide-for-touch {
   }
 }
 footer {
-  background-color: #0f0f0f;
-  color: #333;
+  background-color: #333;
+  color: #fff;
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
   clear: both;
 }
 footer a {
-  color: #333;
+  color: #fff;
 }
 footer i {
   padding-right: 0.35em;
+  padding-bottom: 1em;
 }
 
 .top-bar-section ul li > a {
