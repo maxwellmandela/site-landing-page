@@ -5292,7 +5292,6 @@ th.hide-for-touch {
 
 @media only screen and (min-width: 40.063em) {
   #intro {
-    text-align: center;
     padding-left: 4em;
     margin-top: -4px;
     padding-bottom: 4em;
@@ -5301,7 +5300,7 @@ th.hide-for-touch {
   #intro .worded {
     position: absolute;
     bottom: 4em;
-    padding-right: 3em;
+    padding-right: 40%;
   }
   #intro .centered-words {
     display: none !important;
@@ -5349,15 +5348,16 @@ th.hide-for-touch {
   color: white;
 }
 #events .button {
+  text-transform: uppercase;
   background-color: #00A652;
+  border: 1px solid #00A652;
   margin-left: 0.25em;
   margin-bottom: 0;
-  box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.35) inset;
   transition: all 0.6s;
 }
 #events .button:hover {
-  box-shadow: 0px -5px 4px rgba(0, 0, 0, 0.35) inset;
   background-color: transparent;
+  border: 1px solid white;
 }
 #events .event-description {
   line-height: 1.1em;
@@ -5437,7 +5437,6 @@ th.hide-for-touch {
 footer {
   background-color: #333;
   color: #fff;
-  text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
   clear: both;
@@ -5447,7 +5446,10 @@ footer a {
 }
 footer i {
   padding-right: 0.35em;
-  padding-bottom: 1em;
+  padding-bottom: 0.4em;
+}
+footer .connect, footer .copyright {
+  text-align: center;
 }
 
 .top-bar-section ul li > a {

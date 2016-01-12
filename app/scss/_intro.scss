@@ -49,7 +49,7 @@
 // Medium screens
 @media only screen and (min-width: 40.063em) {
 	#intro {
-		text-align: center;
+		// text-align: center;
 		padding-left: 4em;
 		margin-top: -4px;
 		padding-bottom: 4em;
@@ -59,7 +59,7 @@
 		.worded{
 			position: absolute;
 			bottom: 4em;
-			padding-right: 3em;
+			padding-right: 40%;
 		}
 		.centered-words{
 			display: none !important;

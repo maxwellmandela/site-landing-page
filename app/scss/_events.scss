@@ -26,14 +26,17 @@
 		}
 	}
 	.button {
+		text-transform: uppercase;
 		background-color: #00A652;
+		border: 1px solid #00A652;
 		margin-left: 0.25em;
 		margin-bottom: 0;
-		box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.35) inset;
+		// box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.35) inset;
 		transition: all 0.6s;
 		&:hover {
-			box-shadow: 0px -5px 4px rgba(0, 0, 0, 0.35) inset;
+			// box-shadow: 0px -5px 4px rgba(0, 0, 0, 0.35) inset;
 			background-color: transparent;
+			border: 1px solid white;
 		}
 	}
 	.event-description {
