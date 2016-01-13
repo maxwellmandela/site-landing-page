@@ -34,7 +34,7 @@ local repo, move to the root of the app.
 	 directory
 4. To see how the website will be in production `grunt publish` then run
 	 production server as `grunt server-dist`
-#### For more information about grunt tasks for zf5 genetator visit its [github page](https://github.com/juliancwirko/generator-zf5)
+##### For more information about grunt tasks for zf5 genetator visit its [github page](https://github.com/juliancwirko/generator-zf5)
 
 NB: If you are familiar with grunt then you can change the above commands to
 what you are comfortable with.
