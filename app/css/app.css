@@ -5437,9 +5437,30 @@ th.hide-for-touch {
 footer {
   background-color: #333;
   color: #fff;
-  padding-top: 1em;
+  text-align: center;
   padding-bottom: 1em;
   clear: both;
+}
+footer .location {
+  background-color: #898989;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin: 0;
+  min-height: 300px;
+  max-height: 500px;
+}
+footer .location .opening-time {
+  padding-top: 30px;
+}
+footer .location .partners {
+  padding: 0 20px;
+}
+footer .location .partners h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+footer .location .partners img {
+  margin-bottom: 15px;
 }
 footer a {
   color: #fff;
@@ -5447,9 +5468,16 @@ footer a {
 footer i {
   padding-right: 0.35em;
   padding-bottom: 0.4em;
+  padding-top: 0.4em;
 }
 footer .connect, footer .copyright {
   text-align: center;
+}
+@media only screen and (min-width: 40.063em) {
+  footer .location .opening-time {
+    padding-top: 100px;
+    text-align: left;
+  }
 }
 
 .top-bar-section ul li > a {
