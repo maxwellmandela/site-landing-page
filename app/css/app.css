@@ -4,6 +4,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url(https://fonts.googleapis.com/css?family=Orbitron:900|Ubuntu:400,700|Play:400,700|Pacifico);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -5273,6 +5274,7 @@ th.hide-for-touch {
   font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 20px;
+  font-family: "Orbitron", sans-serif;
 }
 #intro .motto .blue {
   color: #27a9e1;
@@ -5359,14 +5361,17 @@ th.hide-for-touch {
   background-color: transparent;
   border: 1px solid white;
 }
-#events .event-description {
+#events .event {
+  font-family: "Play", sans-serif;
+}
+#events .event .event-description {
   line-height: 1.1em;
   padding-bottom: 0.5em;
 }
-#events .event-date {
+#events .event .event-date {
   font-weight: bold;
 }
-#events .event-date i {
+#events .event .event-date i {
   font-size: 1.2em;
 }
 
@@ -5398,6 +5403,7 @@ th.hide-for-touch {
   }
   .event-pic .join-us .join-larger {
     font-size: 3em;
+    font-family: "Pacifico", cursive;
   }
 }
 #twitter {
@@ -5481,6 +5487,7 @@ footer .connect, footer .copyright {
 }
 
 .top-bar-section ul li > a {
+  font-family: "Play", sans-serif;
   transition: background-color 0.8s;
 }
 
@@ -5489,6 +5496,10 @@ footer .connect, footer .copyright {
 }
 .top-bar .title-area .name {
   padding-top: 5px;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
 }
 
 .row {

@@ -5,6 +5,7 @@
 @import 'normalize';
 @import 'settings';
 @import "mixins";
+@import "fonts";
 
 // Make sure the charset is set appropriately
 @charset 'UTF-8';
@@ -55,6 +56,9 @@
 	@import 'twitter';
 	@import 'footer';
 	@import 'topbar';
+	body{
+		font-family: $ubuntu;
+	}
 	.row{
 		max-width: 100%;
 	}

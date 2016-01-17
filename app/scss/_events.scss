@@ -39,15 +39,18 @@
 			border: 1px solid white;
 		}
 	}
-	.event-description {
-		line-height: 1.1em;
-		padding-bottom: 0.5em;
-	}
-	.event-date {
-		i {
-			font-size: 1.2em;
+	.event{
+		font-family: $play;
+		.event-description {
+			line-height: 1.1em;
+			padding-bottom: 0.5em;
 		}
-		font-weight: bold;
+		.event-date {
+			i {
+				font-size: 1.2em;
+			}
+			font-weight: bold;
+		}
 	}
 }
 @media only screen and (min-width: 40.063em) {
@@ -76,6 +79,7 @@
 			}
 			.join-larger {
 				font-size: 3em;
+				font-family: $pacifico;
 			}
 			padding-bottom: 10px;
 		}
