@@ -5410,6 +5410,7 @@ th.hide-for-touch {
 
 @media only screen and (min-width: 40.063em) {
   #twitter {
+    overflow: hidden;
     margin-top: 5px;
     padding-bottom: 0;
     border-right: 5px solid white;
@@ -5437,78 +5438,11 @@ th.hide-for-touch {
   }
 }
 footer {
-  /*** Navigation ***/
   background-color: #333;
   color: #fff;
   text-align: center;
   padding-bottom: 1em;
   clear: both;
-}
-footer #myCarousel {
-  display: none;
-}
-footer .nbs-flexisel-container {
-  position: relative;
-  max-width: 100%;
-}
-footer .nbs-flexisel-ul {
-  position: relative;
-  width: 99999px;
-  margin: 0px;
-  padding: 0px;
-  list-style-type: none;
-  text-align: center;
-}
-footer .nbs-flexisel-inner {
-  overflow: hidden;
-  float: left;
-  width: 100%;
-  background: #fcfcfc;
-  /* FF3.6+ */
-  /* Chrome,Safari4+ */
-  /* Chrome10+,Safari5.1+ */
-  /* Opera11.10+ */
-  /* IE10+ */
-  background: #fcfcfc linear-gradient(to bottom, #fcfcfc 0%, #eeeeee 100%);
-  /* W3C */
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-}
-footer .nbs-flexisel-item {
-  float: left;
-  margin: 0px;
-  padding: 0px;
-  cursor: pointer;
-  position: relative;
-  line-height: 0px;
-}
-footer .nbs-flexisel-item img {
-  width: 100%;
-  cursor: pointer;
-  position: relative;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  max-width: 100px;
-  max-height: 45px;
-}
-footer .nbs-flexisel-nav-left,
-footer .nbs-flexisel-nav-right {
-  width: 22px;
-  height: 22px;
-  position: absolute;
-  cursor: pointer;
-  z-index: 100;
-  opacity: 0.5;
-}
-footer .nbs-flexisel-nav-left {
-  left: 10px;
-  background: url(../images/button-previous.png) no-repeat;
-}
-footer .nbs-flexisel-nav-right {
-  right: 5px;
-  background: url(../images/button-next.png) no-repeat;
 }
 footer .location {
   background-color: #898989;
@@ -5544,7 +5478,7 @@ footer .connect, footer .copyright {
 }
 @media only screen and (min-width: 40.063em) {
   footer .location .opening-time {
-    padding-top: 100px;
+    padding-top: 60px;
     text-align: left;
   }
 }
