@@ -20,15 +20,15 @@
 		background: white;
 		transition: background 0.9s;
 		&:hover{
-			background: #00A652;
+			background: $lakehub-green;
 			// background: #333;
 			color: white;
 		}
 	}
 	.button {
 		text-transform: uppercase;
-		background-color: #00A652;
-		border: 1px solid #00A652;
+		background-color: $lakehub-green;
+		border: 1px solid $lakehub-green;
 		margin-left: 0.25em;
 		margin-bottom: 0;
 		// box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.35) inset;
@@ -40,7 +40,6 @@
 		}
 	}
 	.event{
-		font-family: $play;
 		.event-description {
 			line-height: 1.1em;
 			padding-bottom: 0.5em;
@@ -79,7 +78,6 @@
 			}
 			.join-larger {
 				font-size: 3em;
-				font-family: $pacifico;
 			}
 			padding-bottom: 10px;
 		}
