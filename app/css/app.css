@@ -5473,6 +5473,9 @@ footer i {
   padding-bottom: 0.4em;
   padding-top: 0.4em;
 }
+footer .connect {
+  padding-top: 20px;
+}
 footer .connect, footer .copyright {
   text-align: center;
 }
@@ -5493,6 +5496,21 @@ footer .connect, footer .copyright {
 }
 .top-bar .title-area .name {
   padding-top: 5px;
+}
+
+#about .about-us {
+  background-color: black;
+  color: white;
+  padding: 70px 20px;
+  text-align: center;
+}
+#about .about-us p {
+  max-width: 1150px;
+  margin: auto;
+}
+#about img {
+  width: 100%;
+  height: auto;
 }
 
 body {
