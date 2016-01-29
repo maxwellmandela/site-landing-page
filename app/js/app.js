@@ -1,3 +1,5 @@
+/*jslint browser: true*/
+/*global $, jQuery, WOW*/
 'use strict';
 
 var app = (function(document, $) {
@@ -38,3 +40,6 @@ $(function() {
     }
   });
 });
+
+new WOW().init();
+// var wow = new WOW();

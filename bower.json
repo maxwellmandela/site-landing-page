@@ -2,6 +2,8 @@
   "name": "zf5_project",
   "dependencies": {
     "foundation": "zurb/bower-foundation",
-    "font-awesome": "~4.4.0" 
+    "font-awesome": "~4.4.0",
+    "wow": "wowjs#~1.1.2",
+    "animate.css": "~3.5.1"
   }
 }
