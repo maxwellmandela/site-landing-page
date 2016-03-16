@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>G Calendaer APi</title>
+	<link rel='stylesheet' href='fullcalendar/dist/fullcalendar.css' />
+	<script src='jquery.min.js'></script>
+	<script src='moment.js'></script>
+	<script src='fullcalendar/dist/fullcalendar.js'></script>
+	<script type='text/javascript' src='fullcalendar/dist/gcal.js'></script>
+</head>
+<body style="width:50%; margin-left:25%;">
+
+
+<script type='text/javascript'>
+
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+        googleCalendarApiKey: 'AIzaSyAX3plRQDKhD61p089ff_HeCdalOzfQM_A',
+        events: {
+            googleCalendarId: 'maxywhyner94@gmail.com'
+        }
+    });
+});
+
+</script>
+
+
+<div id='calendar'></div>
